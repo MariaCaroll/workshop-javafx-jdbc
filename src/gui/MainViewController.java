@@ -35,7 +35,7 @@ public class MainViewController  implements Initializable {
 	
 	@FXML
 	public void onMenuItemVDepartamentoAction() {
-		System.out.println("onMenuItemVDepartamentoAction");	
+		loadView("/gui/DepartamentList.fxml");	
 	}
 	
 	@FXML
@@ -53,7 +53,7 @@ public class MainViewController  implements Initializable {
 	}
 	
 	//incluir o contudo do main about no main menu
-	private void loadView(String absoluteName) {
+	private synchronized void loadView(String absoluteName) {
 		
 		try {
 			
