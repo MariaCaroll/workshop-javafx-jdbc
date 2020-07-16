@@ -67,6 +67,7 @@ public class DepartmentFormController implements Initializable {
 	}
 	
 	private Department getFormData() {
+		
 		Department obj = new Department();
 		
 		obj.setId(Utils.tryParseToInt(txtId.getText()));
@@ -75,8 +76,8 @@ public class DepartmentFormController implements Initializable {
 	}
 
 	@FXML
-	private void onBtCancelAction() {
-		System.out.println("cancela");
+	private void onBtCancelAction(ActionEvent ev) {
+		Utils.currentStage(ev).close();
 	}
 	
 	
