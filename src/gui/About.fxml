@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox prefHeight="183.0" prefWidth="268.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <Label text="Sobre">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="20.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label text="Sistema Básico com JavaFx e MYSQL">
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </Label>
+      <Label text="16/07/2020">
+         <padding>
+            <Insets left="80.0" top="10.0" />
+         </padding>
+      </Label>
+   </children>
+</VBox>
